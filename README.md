@@ -64,16 +64,18 @@ Enter Weight and Height: Input your weight in kilograms (kg) and your height in 
 Click "Calculate BMI": The BMI Calculator will immediately process your inputs.
 View Your Results: The BMI and its corresponding category will be displayed below the button:
 If values are invalid, a friendly error message will guide you to re-enter them correctly.
-BMI Categories
-The BMI categories used are as follows:
 
-Category	BMI Range
-Underweight	BMI < 18.5
-Normal weight	18.5 ≤ BMI < 24.9
-Overweight	25.0 ≤ BMI < 29.9
-Obese	BMI ≥ 30.0
-Contributing
-We welcome contributions! To improve this project:
+## BMI Categories
+
+The BMI categories used in this application are as follows:
+
+| Category       | BMI Range            |
+|----------------|----------------------|
+| Underweight    | Less than 18.5       |
+| Normal weight  | 18.5 - 24.9          |
+| Overweight     | 25 - 29.9            |
+| Obese          | 30 and above         |
+
 
 Fork the Repository.
 Create a New Branch for your feature.
