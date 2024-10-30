@@ -76,14 +76,21 @@ The BMI categories used in this application are as follows:
 | Overweight     | 25 - 29.9            |
 | Obese          | 30 and above         |
 
-Contributing
+## Contributing
+
 We welcome contributions! To improve this project:
 
-1.Fork the Repository.
-2.Create a New Branch for your feature.
-3.Make Your Changes and commit them.
-4.Open a Pull Request for review.
-5.Feel free to suggest enhancements, report issues, or submit pull requests!
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page to create your own copy of this repository.
+2. **Create a New Branch**: Create a branch for your feature or fix.
+   ```bash
+   git checkout -b feature-name
+Make Your Changes: Modify the code, update documentation, or add new features.
+Commit Your Changes: Commit your work with a descriptive message.
+bash
+Copy code
+git commit -m "Add feature description"
+Push to Your Branch: Push your changes to your GitHub fork.
+bash
+Copy code
+git push origin feature-name
+Open a Pull Request: Go to the original repository and open a pull request for your changes.
