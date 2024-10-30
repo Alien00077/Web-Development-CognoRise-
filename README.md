@@ -49,13 +49,11 @@ To get the BMI Calculator up and running on your local machine, follow these sim
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/BMI_Calculator.git
-Navigate to the Folder:
-
-bash
 
 ### 1. Navigate to the Folder
 ```bash
 cd BMI_Calculator
+
 2. Open the Application
 Open BMI_Calculator.html in any modern web browser.
 
@@ -71,6 +69,7 @@ The BMI Calculator will immediately process your inputs.
 
 View Your Results:
 The BMI and its corresponding category will be displayed below the button.
+
 
 ## BMI Categories
 
