@@ -73,7 +73,6 @@ We welcome contributions! To improve this project:
 
 Feel free to suggest enhancements, report issues, or submit pull requests!
 
----
 
 ## License
 
@@ -122,5 +121,9 @@ Feel free to suggest new features, report bugs, or submit improvements!
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+
 
 
