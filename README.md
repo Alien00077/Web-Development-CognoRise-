@@ -79,11 +79,11 @@ The BMI categories used in this application are as follows:
 Contributing
 We welcome contributions! To improve this project:
 
-Fork the Repository.
-Create a New Branch for your feature.
-Make Your Changes and commit them.
-Open a Pull Request for review.
-Feel free to suggest enhancements, report issues, or submit pull requests!
+1.Fork the Repository.
+2.Create a New Branch for your feature.
+3.Make Your Changes and commit them.
+4.Open a Pull Request for review.
+5.Feel free to suggest enhancements, report issues, or submit pull requests!
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
