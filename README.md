@@ -79,3 +79,47 @@ Feel free to suggest enhancements, report issues, or submit pull requests!
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+
+# Online Quiz App
+
+A web-based quiz application that allows users to answer multiple-choice questions and receive immediate feedback. This app tracks the user's score and displays the final result upon completion.
+
+## Features
+
+- Multiple-choice questions with immediate feedback.
+- Color-coded results (green for correct answers, red for incorrect).
+- Displays the user’s final score at the end of the quiz.
+
+## How to Use
+
+### 1. Open the Application
+Open `Online_QuizApp.html` in any modern web browser to start the quiz.
+
+### 2. Answer Questions
+- Each question is displayed with multiple answer options.
+- Click on an answer to select it; the app will immediately show if the answer was correct or incorrect.
+
+### 3. Move to the Next Question
+After selecting an answer, click the "Next" button to proceed to the following question.
+
+### 4. View Final Score
+Once all questions have been answered, the app will display your final score out of the total number of questions.
+
+## Contributing
+
+We welcome contributions to improve the Online Quiz App. Here’s how you can help:
+
+1. **Fork the Repository.**
+2. **Create a New Branch** for your feature.
+3. **Make Your Changes** and commit them.
+4. **Open a Pull Request** for review.
+
+Feel free to suggest new features, report bugs, or submit improvements!
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
