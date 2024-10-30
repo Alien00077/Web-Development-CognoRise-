@@ -76,7 +76,8 @@ The BMI categories used in this application are as follows:
 | Overweight     | 25 - 29.9            |
 | Obese          | 30 and above         |
 
-
+Contributing
+We welcome contributions! To improve this project:
 Fork the Repository.
 Create a New Branch for your feature.
 Make Your Changes and commit them.
