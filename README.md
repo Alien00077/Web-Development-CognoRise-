@@ -1,6 +1,5 @@
 # Web-Development_CognoRise
 
-Copy code
 # BMI Calculator
 
 A sleek, interactive **Body Mass Index (BMI) Calculator** built with **HTML**, **CSS**, and **JavaScript**. This web-based tool makes it easy for users to calculate their BMI based on weight and height inputs, providing quick feedback on their BMI category.
@@ -80,17 +79,16 @@ The BMI categories used in this application are as follows:
 
 We welcome contributions! To improve this project:
 
-1. **Fork the Repository**: Click the "Fork" button at the top right of this page to create your own copy of this repository.
-2. **Create a New Branch**: Create a branch for your feature or fix.
-   ```bash
-   git checkout -b feature-name
-Make Your Changes: Modify the code, update documentation, or add new features.
-Commit Your Changes: Commit your work with a descriptive message.
-bash
-Copy code
-git commit -m "Add feature description"
-Push to Your Branch: Push your changes to your GitHub fork.
-bash
-Copy code
-git push origin feature-name
-Open a Pull Request: Go to the original repository and open a pull request for your changes.
+1. **Fork the Repository**.
+2. **Create a New Branch** for your feature.
+3. **Make Your Changes** and commit them.
+4. **Open a Pull Request** for review.
+
+Feel free to suggest enhancements, report issues, or submit pull requests!
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
