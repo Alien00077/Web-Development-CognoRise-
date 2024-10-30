@@ -52,17 +52,25 @@ To get the BMI Calculator up and running on your local machine, follow these sim
 Navigate to the Folder:
 
 bash
-Copy code
-cd BMI_Calculator
-Open the Application: Open BMI_Calculator.html in any modern web browser.
 
-You’re all set! Input your weight and height to see your BMI result in seconds.
+### 1. Navigate to the Folder
+```bash
+cd BMI_Calculator
+2. Open the Application
+Open BMI_Calculator.html in any modern web browser.
+
+3. You’re All Set!
+Input your weight and height to see your BMI result in seconds.
 
 How It Works
-Enter Weight and Height: Input your weight in kilograms (kg) and your height in meters (m).
-Click "Calculate BMI": The BMI Calculator will immediately process your inputs.
-View Your Results: The BMI and its corresponding category will be displayed below the button:
-If values are invalid, a friendly error message will guide you to re-enter them correctly.
+Enter Weight and Height:
+Input your weight in kilograms (kg) and your height in meters (m).
+
+Click "Calculate BMI":
+The BMI Calculator will immediately process your inputs.
+
+View Your Results:
+The BMI and its corresponding category will be displayed below the button.
 
 ## BMI Categories
 
