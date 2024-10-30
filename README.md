@@ -169,4 +169,55 @@ Feel free to suggest new features, report bugs, or enhance existing functionalit
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+# Currency Converter
+
+A web-based currency converter application that allows users to convert an entered amount from one currency to another using real-time exchange rates.
+
+## Features
+
+- Allows users to input an amount and select "from" and "to" currencies.
+- Uses real-time exchange rates to calculate and display the converted amount.
+- Includes a default currency selection for convenience (`USD` to `INR`).
+
+## How to Use
+
+1. **Open the Application**  
+   Open `Currency_Converter.html` in any modern web browser.
+
+2. **Enter Amount**  
+   Enter the amount you want to convert.
+
+3. **Select Currencies**  
+   - Choose the currency you’re converting **from** and **to** from the dropdowns.
+   - The application will automatically load available currencies from an external exchange rate API.
+
+4. **Convert Currency**  
+   - Click **Convert** to see the result. The converted amount will be displayed below the button.
+
+## Dependencies
+
+This application uses the [ExchangeRate-API](https://www.exchangerate-api.com) to retrieve real-time currency exchange rates.
+
+## File Structure
+
+- `Currency_Converter.html`: The main HTML file for the application, including embedded styles and JavaScript for functionality.
+
+## Contributing
+
+We welcome contributions to improve the Currency Converter. Here’s how you can help:
+
+1. **Fork the Repository.**
+2. **Create a New Branch** for your feature.
+3. **Make Your Changes** and commit them.
+4. **Open a Pull Request** for review.
+
+Feel free to suggest new features, report bugs, or enhance existing functionality!
+
+
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
