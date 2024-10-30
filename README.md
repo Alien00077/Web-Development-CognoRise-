@@ -12,7 +12,6 @@ A sleek, interactive **Body Mass Index (BMI) Calculator** built with **HTML**, *
 - [Features](#features)
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
-- [How It Works](#how-it-works)
 - [BMI Categories](#bmi-categories)
 - [Contributing](#contributing)
 - [License](#license)
