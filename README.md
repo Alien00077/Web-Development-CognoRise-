@@ -116,7 +116,6 @@ We welcome contributions to improve the Online Quiz App. Here’s how you can he
 
 Feel free to suggest new features, report bugs, or submit improvements!
 
----
 
 ## License
 
@@ -124,6 +123,50 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
+# Travel Booking System
+
+A web-based travel booking system that allows users to book trips by specifying a destination and a travel date. Booked trips are displayed in a list, providing a simple and effective way to track upcoming travel plans.
+
+## Features
+
+- Allows users to enter a travel destination and select a travel date.
+- Displays each booking as a list item with destination and date details.
+- Automatically resets the form after each booking.
+
+## How to Use
+
+1. **Open the Application**  
+   Open `Travel_Booking_System.html` in any modern web browser.
+
+2. **Make a Booking**  
+   - Enter the **Destination** in the provided text field.
+   - Select the **Date** for your trip.
+   - Click **Book Now** to add the booking to the list.
+
+3. **View Booked Trips**  
+   Each booking will be displayed below the form in a list format, showing the destination and travel date.
+
+## File Structure
+
+- `Travel_Booking_System.html`: The main HTML file for the application.
+- `booking.css`: Contains styling for the application (if present).
+- `booking.js`: JavaScript file managing form interactions and bookings.
+
+## Contributing
+
+We welcome contributions to improve the Travel Booking System. Here’s how you can contribute:
+
+1. **Fork the Repository.**
+2. **Create a New Branch** for your feature.
+3. **Make Your Changes** and commit them.
+4. **Open a Pull Request** for review.
+
+Feel free to suggest new features, report bugs, or enhance existing functionality!
 
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
