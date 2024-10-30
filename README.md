@@ -220,4 +220,52 @@ Feel free to suggest new features, report bugs, or enhance existing functionalit
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+# To-Do List Web App
+
+A simple, responsive To-Do List application built with HTML, CSS, and JavaScript. This app allows users to add tasks to a list and delete them when completed.
+
+## Features
+
+- **Add Tasks**: Enter a new task in the input field and click "Add Task" to include it in the list.
+- **Delete Tasks**: Remove a task by clicking the "Delete" button next to it.
+- **Responsive Design**: Clean and centered layout that adapts well to different screen sizes.
+
+## Demo
+
+![To-Do List Screenshot](screenshot.png)
+
+## Technologies Used
+
+- **HTML**: Structure of the app.
+- **CSS**: Styling for layout, color, and hover effects.
+- **JavaScript**: Functionality for adding and deleting tasks.
+
+## Code Overview
+
+### HTML
+
+The HTML file creates a container with an input field, an "Add Task" button, and an empty list to hold tasks.
+
+### CSS
+
+Custom CSS styles are applied to:
+- Center the container.
+- Style buttons, input fields, and task list items.
+- Add hover effects on buttons.
+
+### JavaScript
+
+A single `addTask()` function:
+- Adds a new task to the list if the input field is not empty.
+- Creates a "Delete" button next to each task to remove it when clicked.
+
+## How to Use
+
+1. Clone the repository.
+2. Open `index.html` in a web browser.
+3. Add tasks by typing into the input field and clicking "Add Task".
+4. Delete tasks by clicking the "Delete" button next to each task.
+
+---
+
 
