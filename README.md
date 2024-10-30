@@ -1,5 +1,5 @@
-# Web-Development-CognoRise-
-markdown
+# Web-Development_CognoRise
+
 Copy code
 # BMI Calculator
 
@@ -78,6 +78,7 @@ The BMI categories used in this application are as follows:
 
 Contributing
 We welcome contributions! To improve this project:
+
 Fork the Repository.
 Create a New Branch for your feature.
 Make Your Changes and commit them.
@@ -86,10 +87,3 @@ Feel free to suggest enhancements, report issues, or submit pull requests!
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-Happy calculating! 😊
-
-vbnet
-Copy code
-
-This README is designed to guide users from setup to usage and make it easy for contributors to
