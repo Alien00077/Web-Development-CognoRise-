@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Quiz App</title>
+    <style>
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Quiz container styling */
+        .quiz-container {
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            text-align: center;
+        }
+
+        /* Title styling */
+        h1 {
+            color: #4a90e2;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        /* Question container styling */
+        #questionContainer {
+            margin-bottom: 20px;
+        }
+
+        /* Option button styling */
+        .option-button {
+            width: 100%;
+            padding: 12px;
+            margin: 5px 0;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            color: white;
+            background-color: #4a90e2;
+        }
+
+        /* Correct and incorrect answer colors */
+        .correct {
+            background-color: #28a745 !important;
+        }
+
+        .incorrect {
+            background-color: #e74c3c !important;
+        }
+
+        /* Next button styling */
+        .next-button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #28a745;
+            color: white;
+        }
+
+        .next-button:hover {
+            background-color: #218838;
+        }
+
+        /* Media query for smaller screens */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .quiz-container button {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <div id="questionContainer"></div>
+        <button class="next-button" onclick="nextQuestion()" style="display: none;">Next</button>
+        <p id="resultMessage"></p>
+    </div>
+
+    <script>
+        const questions = [
+            { question: "What is the capital of France?", options: ["Paris", "London", "Berlin", "Rome"], answer: "Paris" },
+            { question: "What is 2 + 2?", options: ["3", "4", "5", "6"], answer: "4" },
+            { question: "What is the capital of Japan?", options: ["Tokyo", "Kyoto", "Osaka", "Nagoya"], answer: "Tokyo" }
+        ];
+
+        let currentQuestion = 0;
+        let score = 0;
+
+        // Display the current question and options
+        function displayQuestion() {
+            const questionContainer = document.getElementById('questionContainer');
+            const question = questions[currentQuestion];
+
+            // Reset content and button color for the next question
+            questionContainer.innerHTML = `<p>${question.question}</p>`;
+            document.getElementById('resultMessage').textContent = '';
+
+            // Add buttons for each option
+            question.options.forEach(option => {
+                const optionButton = document.createElement('button');
+                optionButton.className = 'option-button';
+                optionButton.textContent = option;
+                optionButton.onclick = () => checkAnswer(option, optionButton);
+                questionContainer.appendChild(optionButton);
+            });
+
+            // Hide the next button initially
+            document.querySelector('.next-button').style.display = 'none';
+        }
+
+        // Check if the answer is correct and show correct answer if wrong
+        function checkAnswer(answer, selectedButton) {
+            const question = questions[currentQuestion];
+            const isCorrect = answer === question.answer;
+            const buttons = document.querySelectorAll('.option-button');
+
+            // Display correct answer in green
+            buttons.forEach(button => {
+                if (button.textContent === question.answer) {
+                    button.classList.add('correct');
+                }
+            });
+
+            if (isCorrect) {
+                score++;
+                selectedButton.classList.add('correct');
+                document.getElementById('resultMessage').textContent = "Correct!";
+            } else {
+                selectedButton.classList.add('incorrect');
+                document.getElementById('resultMessage').textContent = "Wrong Answer.";
+            }
+
+            // Disable all buttons after selection
+            buttons.forEach(button => button.onclick = null);
+
+            // Show next button
+            document.querySelector('.next-button').style.display = 'block';
+        }
+
+        // Move to the next question or show the results page
+        function nextQuestion() {
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                displayQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Display final results
+        function showResults() {
+            const questionContainer = document.getElementById('questionContainer');
+            questionContainer.innerHTML = `<p>Your Score: ${score} / ${questions.length}</p>`;
+            document.getElementById('resultMessage').textContent = "Quiz Completed!";
+            document.querySelector('.next-button').style.display = 'none';
+        }
+
+        // Display the first question on load
+        displayQuestion();
+    </script>
+</body>
+</html>
+
