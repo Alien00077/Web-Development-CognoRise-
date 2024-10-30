@@ -79,6 +79,7 @@ Feel free to suggest enhancements, report issues, or submit pull requests!
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+---
 
 # Online Quiz App
 
